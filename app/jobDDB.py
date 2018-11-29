@@ -149,5 +149,6 @@ def query_skills(positionID):
 #records = query_jobs('031f0406-f2c1-11e8-a7ce-f40f242190e7')
 #x = '43601e88-f2ab-11e8-ba53-f40f242190e7'
 #putJobItem(x, g_uid(),"senior java developer","java, Agile, MySQL")
-records = query_skills("4220f558-f337-11e8-b8de-f40f242190e7")
+#records = query_skills("4220f558-f337-11e8-b8de-f40f242190e7")
+records = query_jobs("43601e88-f2ab-11e8-ba53-f40f242190e7")
 print(records)
